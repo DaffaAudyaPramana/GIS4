@@ -36,7 +36,7 @@ export function onSubmitMarkerClick() {
     coordinates: [parseFloat(long), parseFloat(lat)],
   };
   postWithToken(
-    urlPostGCF,
+    urlPOSTGCF,
     "Token",
     "dsf9ygf87h98u479y98dj0fs89nfd7",
     data,
